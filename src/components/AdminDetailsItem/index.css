@@ -1,0 +1,38 @@
+.each-list-item-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.each-list-item-cont-selected {
+  background-color: #6366f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.each-list-item {
+  color: #f8fafc;
+  font-size: 16px;
+  padding-left: 0px;
+  width: 120px;
+}
+
+.edit-delete-cont {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.checkbox-items {
+  cursor: pointer;
+}

@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.admin-ui-bg {
   display: flex;
   flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.admin-details-cont {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  border: 1px solid #00e7ff;
+  border-radius: 8px;
+  margin-top: 48px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-header {
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #092e33;
+}
+
+.list-item-header {
+  display: flex;
+  align-items: center;
+}
+
+.table-head-name {
+  color: #f8fafc;
+  font-size: 16px;
+  padding-left: 0px;
+  width: 100px;
+}
+
+.user-list-item-cont {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.checkbox {
+  margin-right: 200px;
+  cursor: pointer;
+}
+
+.name {
+  margin-right: 270px;
+}
+
+.email {
+  margin-right: 275px;
+}
+
+.role {
+  margin-right: 285px;
 }
